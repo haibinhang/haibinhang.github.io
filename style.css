@@ -142,7 +142,7 @@ h1 {
   line-height: 1.8;
 }
 
-.documents {
+.documents:not([hidden]) {
   display: flex;
   flex-wrap: wrap;
   gap: 0.65rem;
