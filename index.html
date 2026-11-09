@@ -1,134 +1,176 @@
-
+<!doctype html>
+<html lang="en">
 <head>
-<title>Haibin Hang</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Haibin Hang's academic homepage with research interests and publications in topology, geometry, and data analysis.">
+  <title>Haibin Hang</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="site-name" href="#about">Haibin Hang</a>
+      <nav aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<div id="title">Haibin Hang</div>
+  <main class="wrap" id="main" tabindex="-1">
+    <section class="intro" id="about" aria-labelledby="name">
+      <div class="intro-text">
+        <p class="eyebrow">Mathematics &amp; Data Analysis</p>
+        <h1 id="name">Haibin Hang</h1>
+        <p class="bio">I have enthusiasm for applying mathematics to practical problems across diverse disciplines. Previous collaborations with scientists in biology, material science, etc. enhanced my ability in data analysis, computer vision, and machine learning. Besides my theoretical and analytical background, I am also capable of implementing my ideas using programming languages like Python, Matlab, Julia, Rust, and C++.</p>
+        <div class="documents">
+          <a class="button button-primary" href="cv.pdf">Curriculum Vitae <span aria-hidden="true">↗</span></a>
+          <a class="button" href="research_statement.pdf">Research Statement <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <img class="portrait" src="resources/haibin-academic.png" alt="Portrait of Haibin Hang" width="1086" height="1448">
+    </section>
 
-<!--
-<ul id="nav">
-<li><a class="selected" href="#">Home</a></li>
-<li><a href="#">Publications</a></li>
-<li><a href="#">CV</a></li>
-<li><a href="#">Research Statement</a></li>
-</ul>
--->
+    <section class="research" id="research" aria-labelledby="research-title">
+      <h2 id="research-title">Research Interests</h2>
+      <p>Topological and geometric data analysis; object-oriented data analysis; statistics on graphs and manifolds; scientific and practical applications and low-dimensional topology.</p>
+    </section>
 
-<div id="maincontent">
+    <div class="academic-content">
+      <section id="publications" aria-labelledby="publications-title">
+        <h2 id="publications-title">Publications</h2>
+        <ol class="publication-list" reversed>
+          <li>
+            <h3>Adaptive Feature Interpolation for Low-Shot Image Generation</h3>
+            <p class="authors">M. Dai, <strong>H. Hang</strong>, X. Guo</p>
+            <p class="venue">Accepted by European Conference on Computer Vision (ECCV) (2022)</p>
+            <div class="paper-links">
+              <a href="https://arxiv.org/pdf/2112.02450.pdf">arXiv</a>
+            </div>
+          </li>
+          <li>
+            <h3>Rethinking Multidimensional Discriminator Output for Generative Adversarial Networks</h3>
+            <p class="authors">M. Dai, <strong>H. Hang</strong>, A. Srivastava</p>
+            <p class="venue">Proceedings of the 39th International Conference on Machine Learning Workshops (AdvML) (2022)</p>
+            <div class="paper-links">
+              <a href="http://arxiv-export-lb.library.cornell.edu/abs/2109.03378">arXiv</a>
+            </div>
+          </li>
+          <li>
+            <h3>U-match factorization: sparse homological algebra, lazy cycle representatives, and dualities in persistent(co)homology</h3>
+            <p class="authors"><strong>H. Hang</strong>, C. Giusti, L. Ziegelmeier, G. Henselman</p>
+            <p class="venue">ArXiv:2108.08831 (2021).</p>
+            <div class="paper-links">
+              <a href="https://arxiv.org/abs/2108.08831">arXiv</a>
+            </div>
+          </li>
+          <li>
+            <h3>Manifold Matching via Deep Metric Learning for Generative Modeling</h3>
+            <p class="authors">M. Dai, <strong>H. Hang</strong></p>
+            <p class="venue">Proceedings of the IEEE/CVF International Conference on Computer Vision (2021)</p>
+            <div class="paper-links">
+              <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Dai_Manifold_Matching_via_Deep_Metric_Learning_for_Generative_Modeling_ICCV_2021_paper.html">ICCV 2021</a>
+              <a href="https://github.com/dzld00/pytorch-manifold-matching">Code</a>
+            </div>
+          </li>
+          <li>
+            <h3>Decorated merge trees for persistent topology</h3>
+            <p class="authors">J. Curry, <strong>H. Hang</strong>, W. Mio, T. Needham, O. Okutan</p>
+            <p class="venue">Journal of Applied and Computational Topology (2022), 1-58</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.1007/s41468-022-00089-3">DOI</a>
+              <a href="https://github.com/trneedham/Decorated-Merge-Trees">Code</a>
+            </div>
+          </li>
+          <li>
+            <h3>Detecting Carbon Nanotube Orientation with Topological Analysis of Scanning Electron Micrographs</h3>
+            <p class="authors">L. Dong, <strong>H. Hang</strong>, J. G. Park, W. Mio, R. Liang</p>
+            <p class="venue">Nanomaterials (2022)</p>
+            <div class="paper-links">
+              <a href="publications/cnt_slides.pdf">Slides</a>
+              <a href="https://doi.org/10.3390/nano12081251">DOI</a>
+              <a href="https://github.com/haibinhang/cnt_tda">Code</a>
+            </div>
+          </li>
+          <li>
+            <h3>Geometric and topological approaches to shape variation in Ginkgo leaves</h3>
+            <p class="authors"><strong>H. Hang</strong>, M. Bauer, W. Mio, L. Mander</p>
+            <p class="venue">Royal Society open science (2021)</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.1098/rsos.210978">DOI</a>
+              <a href="https://github.com/haibinhang/TDA-of-ginkgo-leaves">Code</a>
+            </div>
+          </li>
+          <li>
+            <h3>Correspondence modules and persistence sheaves: a unifying perspective on one-parameter persistent homology</h3>
+            <p class="authors"><strong>H. Hang</strong>, W. Mio</p>
+            <p class="venue">Japan Journal of Industrial and Applied Mathematics (2022).</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.1007/s13160-022-00517-y">DOI</a>
+            </div>
+          </li>
+          <li>
+            <h3>A topological study of functional data and Fréchet functions of metric measure spaces</h3>
+            <p class="authors"><strong>H. Hang</strong>, F. Mémoli, W. Mio</p>
+            <p class="venue">J Appl. and Comput. Topology (2019).</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.1007/s41468-019-00037-8">DOI</a>
+              <a href="https://arxiv.org/abs/1811.06613">arXiv</a>
+            </div>
+          </li>
+          <li>
+            <h3>Covariance tensors on Riemannian manifolds</h3>
+            <p class="authors"><strong>H. Hang</strong>, F. Mémoli, W. Mio</p>
+            <p class="venue">Oberwolfach Reports, Workshop on Statistics for Data with Geometric Structure (2018), 153-156.</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.4171/OWR/2018/3">DOI</a>
+              <a href="publications/mcf_slides.pdf">Slides</a>
+            </div>
+          </li>
+          <li>
+            <h3>Homology and orientation reversing periodic maps on surfaces</h3>
+            <p class="authors"><strong>H. Hang</strong></p>
+            <p class="venue">Topology and its Applications, 229 (2017), 1-19.</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.1016/j.topol.2017.06.023">DOI</a>
+              <a href="https://arxiv.org/abs/1603.00507">arXiv</a>
+            </div>
+          </li>
+        </ol>
+      </section>
 
-<p>
-<img class="image_paragraph_right" src="haibin.JPG" width="200px"/>
-<p>
-I have enthusiasm for applying mathematics to practical problems across diverse disciplines. 
-Previous collaborations with scientists in biology, material science, etc. enhanced my ability in data analysis, computer vision, and machine learning. 
-Besides my theoretical and analytical background, I am also capable of implementing my ideas using programming languages like Python, Matlab, Julia, Rust, and C++.
-<br>
-<br>
-<a href="cv.pdf">Curriculum Vitae</a><br>
-<a href="research_statement.pdf">Research Statement</a><br>
-<br>
-<hr>
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <dl>
+          <dt>Email</dt>
+          <dd>haibin dot hang312 at gmail dot com</dd>
+          <dt>Webpage</dt>
+          <dd><a href="https://haibinhang.github.io/">haibinhang.github.io</a></dd>
+          <dt>ResearchGate</dt>
+          <dd><a href="https://www.researchgate.net/profile/Haibin-Hang">researchgate.net/profile/Haibin-Hang</a></dd>
+          <dt>Google Scholar</dt>
+          <dd><a href="https://scholar.google.com/citations?user=SO-5E0MAAAAJ&amp;hl=en">scholar.google.com/citations?user=SO-5E0MAAAAJ&amp;hl=en</a></dd>
+          <dt>GitHub</dt>
+          <dd><a href="https://github.com/haibinhang">github.com/haibinhang</a></dd>
+        </dl>
+      </section>
+    </div>
+  </main>
 
-<h3>Research Interests</h3>
-Topological  and  geometric  data  analysis;  object-oriented  data  analysis; 
- statistics  on  graphs  andmanifolds; scientific and practical applications and low-dimensional topology.
-<br>
-<br>
-<hr>
-
-<h3>Contact</h3>
-Email: haibin dot hang312 at gmail dot com<br>
-Webpage:<a href="https://haibinhang.github.io/">haibinhang.github.io </a> <br>
-ResearchGate:<a href="https://www.researchgate.net/profile/Haibin-Hang">researchgate.net/profile/Haibin-Hang </a> <br>
-GoogleScholar:<a href="https://scholar.google.com/citations?user=SO-5E0MAAAAJ&hl=en">scholar.google.com/citations?user=SO-5E0MAAAAJ&hl=en </a> <br>
-GitHub:<a href="https://github.com/haibinhang">github.com/haibinhang </a> <br>
-<br>
-<hr>
-
-<h3>Publications</h3>
-<ol class="default" reversed >
-<li> M. Dai, H. Hang, X. Guo, Adaptive Feature Interpolation for Low-Shot Image Generation, Accepted by European Conference on Computer Vision (ECCV) (2022)
-	<a href="https://arxiv.org/pdf/2112.02450.pdf">[arXiv]</a>
-</li>	
-	
-<li> M. Dai, H. Hang, A. Srivastava, Rethinking Multidimensional Discriminator Output for Generative Adversarial Networks, Proceedings of the 39th International Conference on Machine Learning Workshops (AdvML) (2022)
-	<a href="http://arxiv-export-lb.library.cornell.edu/abs/2109.03378">[arXiv]</a>
-</li>
-	
-<li> H. Hang, C. Giusti, L. Ziegelmeier, G. Henselman, U-match factorization: sparse homological algebra, lazy cycle representatives, and dualities in persistent(co)homology. ArXiv:2108.08831 (2021).
-	<a href="https://arxiv.org/abs/2108.08831">[arXiv]</a>
-</li>
-
-<li> M. Dai, H. Hang, Manifold Matching via Deep Metric Learning for Generative Modeling. Proceedings of the IEEE/CVF International Conference on Computer Vision (2021)
-	<a href="https://openaccess.thecvf.com/content/ICCV2021/html/Dai_Manifold_Matching_via_Deep_Metric_Learning_for_Generative_Modeling_ICCV_2021_paper.html">[ICCV2021]</a>
-	<a href="https://github.com/dzld00/pytorch-manifold-matching">[code]</a>
-</li>
-	
-<li> J. Curry, H. Hang, W. Mio, T. Needham, O. Okutan, Decorated merge trees for persistent topology, Journal of Applied and Computational Topology (2022), 1-58
-	<a href="https://doi.org/10.1007/s41468-022-00089-3">[doi]</a>
-	<a href="https://github.com/trneedham/Decorated-Merge-Trees">[code]</a>
-</li>
-	
-<li> L. Dong, H. Hang, J. G. Park, W. Mio, R. Liang, Detecting Carbon Nanotube Orientation with Topological Analysis of Scanning Electron Micrographs, Nanomaterials (2022)
-	<a href="publications/cnt_slides.pdf">[slides]</a>
-	<a href="https://doi.org/10.3390/nano12081251">[doi]</a>
-	<a href="https://github.com/haibinhang/cnt_tda">[code]</a>
-</li>
-
-<li> H. Hang, M. Bauer, W. Mio, L. Mander, Geometric and topological approaches to shape variation in Ginkgo leaves, Royal Society open science (2021)
-	<a href="https://doi.org/10.1098/rsos.210978">[doi]</a>
-	<a href="https://github.com/haibinhang/TDA-of-ginkgo-leaves">[code]</a>
-</li>
-	
-<li> H. Hang, W. Mio, Correspondence modules and persistence sheaves: a unifying perspective on one-parameter persistent homology, Japan Journal of Industrial and Applied Mathematics (2022).
-	<a href="https://doi.org/10.1007/s13160-022-00517-y">[doi]</a>
-</li>
-
-<li> H. Hang, F. Mémoli, W. Mio, A topological study of functional data and  Fréchet functions of metric measure spaces. J Appl. and Comput. Topology (2019).
-	<a href="https://doi.org/10.1007/s41468-019-00037-8">[doi]</a>
-	<a href="https://arxiv.org/abs/1811.06613">[arXiv]</a>
-</li>
-
-<li> H. Hang, F. Mémoli, W. Mio, Covariance tensors on Riemannian manifolds, Oberwolfach Reports, Workshop on Statistics for Data with Geometric Structure (2018), 153-156.
-	<a href="https://doi.org/10.4171/OWR/2018/3">[doi]</a>
-	<a href="publications/mcf_slides.pdf">[slides]</a>
-</li>
-
-<li> H. Hang, Homology and orientation reversing periodic maps on surfaces, Topology and its Applications, 229 (2017), 1-19.
-	<a href="https://doi.org/10.1016/j.topol.2017.06.023">[doi]</a>
-	<a href="https://arxiv.org/abs/1603.00507">[arXiv]</a>
-</li>
-
-</ol>
-
-<br>
-<hr>
-<center>
-<tr>
-<td><img src="resources/FSU Seal.png" width="100"></td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td><img src="resources/mathfunday-snail.png" width="170"></td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td><img src="resources/fsu_seminoles_logo.png" width="100"></td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td><img src="resources/rubik.jpg" width="100"></td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td><img src="resources/ud_logo.jpeg" width="80"></td>
-</tr>
-</tbody></table>
-</center>
-
-
-
-</div>
-<div id="footer">
-<div id="footercontact">
-Last Updated:08/13/21
-</div>
-</div>
-
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-images">
+        <img src="resources/FSU Seal.png" alt="Florida State University seal" width="1200" height="1200" loading="lazy">
+        <img src="resources/mathfunday-snail.png" alt="Math Fun Day snail" width="1074" height="545" loading="lazy">
+        <img src="resources/fsu_seminoles_logo.png" alt="Florida State Seminoles logo" width="694" height="600" loading="lazy">
+        <img src="resources/rubik.jpg" alt="Rubik's cube" width="1010" height="840" loading="lazy">
+        <img src="resources/ud_logo.jpeg" alt="University of Delaware logo" width="1956" height="2116" loading="lazy">
+      </div>
+      <p>Last updated <time datetime="2021-08-13">August 13, 2021</time></p>
+    </div>
+  </footer>
 </body>
 </html>
